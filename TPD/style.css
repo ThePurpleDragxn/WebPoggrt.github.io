@@ -1,0 +1,389 @@
+
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back1.png);
+}
+ul {
+    text-decoration: none;
+}
+/* rgb(84, 88, 199); */
+@media only screen and (max-width: 1000px) {
+    li a {
+        text-decoration: none;
+        color: white;
+        font-size: 70px;
+    }
+    
+    .mobilenav {
+        display: flex;
+        background-color: rgb(69, 77, 0);
+        width: 130%;
+        border-bottom: 20px solid rgb(89, 116, 0);
+        color: white;
+    }
+    .mobilenav img {
+        width: 100px;
+        height: 100px;
+        margin: 80px;
+    }
+
+    .hero img {
+        display: flex;
+        margin: 0px;
+        width: 129%;
+        filter: blur(5px);
+    }
+
+    .mobilenav .text {
+        margin-top: 110px;
+        width: 700px;
+        font-size: 45px;
+    }
+     
+    
+    #ul1 {
+        visibility: hidden;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        width: 125.5%;
+        text-align: center;
+        font-weight: 500;
+        
+    }
+
+    #ul1 li {
+        margin-top: 190px;
+        background-color: rgb(89, 116, 0);;
+        border: 10px solid rgb(69, 77, 0);
+        border-collapse: collapse;
+    }
+
+    
+
+    i {
+        margin-left: 40px;
+        color: rgb(255, 255, 255);
+    }
+
+   
+    li {
+        padding: 20px;
+        margin: 0px;
+        margin-left: -40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-0%, -170%);
+        margin-bottom: -150px;
+    }
+
+    svg {
+        width: 1230px;
+        margin-top: 1020px;
+    }
+
+    
+
+    .btn {
+        width: 200px;
+        height: 200px;
+        background-color: transparent;
+        border-style: none;
+        margin-right: -210px;
+    }
+
+    .downloadpart {
+        width: 1100px;
+    }
+    .downloadpart p {
+        font-size: 100px;
+        color: white;
+        margin-left: 20%;
+    }
+    .downloadpart i {
+        font-size: 200px;
+        margin-left: 45%;
+    }
+
+
+    
+    .aboutmepart i{
+        font-size: 150px;
+        margin-left: 58%;
+        color: rgb(69, 77, 0);
+        color: white;
+    }
+    .aboutmepart p {
+        font-size: 70px;
+        color: white;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 100px;
+        width: 800px;
+        background-color: rgb(69, 77, 0);
+        margin-left: 19%;
+        padding: 40px;
+        border: 20px solid rgb(89, 116, 0);
+    }
+    
+    .btn img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .navoptions,.desktopnav,.text1,.logo {
+        display: none;
+    }
+    
+    .WelcomeText {
+        font-size: 180px;
+        margin-left: 30%;
+        margin-top: 15px;
+        color: white;
+        
+    }
+
+    .backtree {
+        margin-left: 92%;
+        filter: brightness(70%);
+    }
+    .backtree1 {
+        margin-left: 12%;
+        filter: brightness(70%);
+        margin-bottom: -500px;
+    }
+    .backtree2 {
+        margin-left: 2%;
+        filter: brightness(70%);
+    }
+    .backtree3 {
+        margin-left: 89%;
+        filter: brightness(70%);
+        margin-top: 400px;
+    }
+
+
+    
+}
+
+@media only screen and (min-width: 1020px) {
+
+    body {
+        background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back2.png);
+    }
+    .mobilenav {
+        display: none;
+
+    }
+
+    #ul1 {
+        display: none;
+    }
+
+    .logo {
+        width: 85px;
+    }
+
+    #desktopnav {
+        display: flex;
+        margin: 0;
+        background-color: rgb(69, 77, 0);
+        border-bottom: 10px solid rgb(89, 116, 0);
+    }
+
+    .text1 {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .text {
+        color: white;
+    }
+
+
+    .navoptions {
+        display: flex;
+        margin-top: -75px;
+        margin-left: 1100px;
+        margin-right: 50px;
+    }
+    .navoptions a {
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-top: -50px;
+        background-color: rgb(88, 104, 0);
+        border: none;
+        margin-left: 20px;
+        width: 800px;
+        height: 30px;
+        background-size: 300px;
+        border-radius: 10px;
+        margin-top: -20px;
+        padding: 20px;
+    }
+
+    .navoptions a:hover {
+        background-color: rgb(61, 71, 0);
+    }
+    
+    .WelcomeText {
+        font-size: 140px;
+        color: white;
+        margin-top: 10%;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+    }
+    .backtree {
+        width: 300px;
+        margin-left: 41.5%;
+        margin-top: -50px;
+        -webkit-filter: brightness(70%);
+    }
+
+    .downloadpart {
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .aboutmepart {
+        color: white;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 50px;
+        width: 1500px;
+        background-color: rgb(75, 88, 0);
+        margin-left: 11%;
+        box-shadow: 0 30px 30px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        padding: 20px;
+        border: 8px solid black;
+    }
+
+    .aboutmepart:hover {
+         box-shadow: 0 40px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+ 
+  
+
+    
+}
+
+
+@media only screen and (min-width: 1921px) {
+    body {
+        background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back1.png);
+    }
+
+    .mobilenav {
+        display: none;
+
+    }
+
+    #ul1 {
+        display: none;
+    }
+
+    .logo {
+        width: 85px;
+    }
+
+    #desktopnav {
+        display: flex;
+        margin: 0;
+        background-color: rgb(69, 77, 0);
+        border-bottom: 10px solid rgb(89, 116, 0);
+    }
+
+    .text1 {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .text {
+        color: white;
+    }
+
+
+    .navoptions {
+        display: flex;
+        margin-top: -75px;
+        margin-left: 1600px;
+        margin-right: 50px;
+    }
+    .navoptions a {
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-top: -50px;
+        background-color: rgb(88, 104, 0);
+        border: none;
+        margin-left: 20px;
+        width: 800px;
+        height: 30px;
+        background-size: 300px;
+        border-radius: 10px;
+        margin-top: -20px;
+        padding: 20px;
+    }
+
+    .navoptions a:hover {
+        background-color: rgb(61, 71, 0);
+    }
+
+
+    .WelcomeText {
+        font-size: 140px;
+        color: white;
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 1500px;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+    }
+    .backtree {
+        width: 300px;
+        margin-left: 43.5%;
+        -webkit-filter: brightness(70%);
+    }
+
+    .downloadpart {
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .aboutmepart {
+        color: white;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 100px;
+        width: 1500px;
+        background-color: rgb(75, 88, 0);
+        margin-left: 19%;
+        box-shadow: 0 30px 30px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        padding: 40px;
+        border: 8px solid black;
+    }
+
+    .aboutmepart:hover {
+         box-shadow: 0 40px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+ 
+  
+
+    
+}

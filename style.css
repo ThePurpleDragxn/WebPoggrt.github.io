@@ -26,7 +26,7 @@ body {
     top: 0;
     width: 100vw;
     display: flex;
-    background-color: #ffffff06;
+    background-color: #24242483;
     /* background-color: #ffffff03; */
     z-index: 100;
 }
@@ -34,6 +34,7 @@ body {
 nav {
     display: flex;
     border-radius: 2em;
+    
 }
 
 .ham-box {
@@ -91,25 +92,29 @@ li a {
     100% {padding: 1em;}
 }
 
-
+ul {
+}
 
 
 
 li:hover {
-    background-color: rgb(25,25,25);
+    background-color: rgb(9, 9, 9);
+    /*
     animation-name: enterhover;
     animation-duration: 0.25s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    border-radius: 1em;
+    border-radius: 1em;*/
 }
 
 li:not(:hover) {
+    /*
     animation-name: leavehover;
     animation-duration: 0.25s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     border-radius: 1em;
+    */
 }
 
 
@@ -211,8 +216,13 @@ li:not(:hover) {
     align-items: center;
 }
 
+.box:hover {
+    opacity: 0.5;
+    background-color: #000000cd;
+}
 
-.part a{
+/*
+{
     display: flex;
     align-items: flex-end;
     border: 1px solid black;
@@ -226,7 +236,7 @@ li:not(:hover) {
     border: 2px solid rgba(255, 255, 255, 0.557);
     color: black;
     border-top: white;
-}
+}*/
 
 @keyframes coolbutton {
     50% {
@@ -259,21 +269,10 @@ li:not(:hover) {
 }
 
 
-.part a:hover {
-    animation: coolbutton 3s forwards;
-}
-
-.part:hover {
-    animation: coolscale 1s forwards;
-}
-
 .part .box {
     box-shadow: 10px 10px 10px inset rgba(0, 0, 0, 0.388);
 }
 
-.part:not(:hover) {
-    animation: coolbackscale 1s forwards;
-}
 
 .bottom-container {
     padding: 1em;
@@ -299,9 +298,27 @@ li:not(:hover) {
     .top-container {
         justify-content: center;
     }
+
+    .part .box {
+        border: 1px solid white;
+        width: 20em;
+        height: 20em;
+    }
+    
+    .mid-container{
+        display: flex;
+        flex-direction: row;
+        overflow-y: hidden;
+        max-width: 100em;
+    }
+    .box {
+        flex-direction: column;
+        animation: none;
+        margin-top: 7em;
+    }
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1300px){
     nav {
         display: none;
         
