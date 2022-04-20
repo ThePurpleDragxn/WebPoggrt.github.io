@@ -17,7 +17,6 @@ body {
     background-size: 100vw 100vh;
     z-index: -1;
     filter: blur(3px); 
-    background-image: url(img/back.mp4);
     background-repeat: no-repeat;
 }
 
