@@ -314,9 +314,9 @@ li:not(:hover) {
         overflow-y: hidden;
         max-width: 100em;
     }
-    .b1 {
+    .box {
         animation: none;
-        margin-top: 7em;
+        margin-top: 1em;
     }
 
     .box {
