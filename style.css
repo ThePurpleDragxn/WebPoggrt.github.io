@@ -26,15 +26,13 @@ body {
     top: 0;
     width: 100vw;
     display: flex;
-    background-color: #24242483;
+    background-color: #1e1e1e;
     /* background-color: #ffffff03; */
     z-index: 100;
 }
 
 nav {
     display: flex;
-    border-radius: 2em;
-    
 }
 
 .ham-box {
@@ -65,7 +63,6 @@ ul li {
     animation-duration: 0.25s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
-    border-radius: 1em;
 }
 
 li a {
@@ -284,6 +281,12 @@ li:not(:hover) {
     font-size: 2em;
     flex-direction: column;
 }
+#hamlist {
+    display: none;
+}
+.ham-box {
+    display: none;
+}
 
 
 @media screen and (max-width: 1920px){
@@ -311,17 +314,19 @@ li:not(:hover) {
         overflow-y: hidden;
         max-width: 100em;
     }
-    .box {
-        flex-direction: column;
+    .b1 {
         animation: none;
         margin-top: 7em;
+    }
+
+    .box {
+        justify-content: center;
     }
 }
 
 @media screen and (max-width: 1300px){
     nav {
         display: none;
-        
     }
     .git img {
         transform: scale(0.8);
@@ -362,9 +367,13 @@ li:not(:hover) {
     #hamList {
         display: none;
         justify-content: center;
+        width: 110%;
         margin-left: -5em;
         text-align: center;
-        background-color: #242424;
+        background-color: #202020;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid grey;
     }
     #hamList ul {
         flex-direction: column;
@@ -388,7 +397,9 @@ li:not(:hover) {
         border: 1px solid white;
         width: 20em;
     }
-
+    #hamlist {
+        display: none;
+    }
 }   
 
 @media screen and (max-width: 500px){
@@ -402,6 +413,7 @@ li:not(:hover) {
         border: 1px solid white;
         width: 17em;
     }
+    
 }
 
 
