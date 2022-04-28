@@ -397,8 +397,21 @@ li:not(:hover) {
         border: 1px solid white;
         width: 20em;
     }
-    #hamlist {
+    #hamList {
         display: none;
+        justify-content: center;
+        width: 115%;
+        margin-left: -5em;
+        text-align: center;
+        background-color: #202020;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid grey;
+    }
+    #hamList ul {
+        flex-direction: column;
+        animation: none;
+        margin-top: 7em;
     }
 }   
 
@@ -413,7 +426,22 @@ li:not(:hover) {
         border: 1px solid white;
         width: 17em;
     }
-    
+    #hamList {
+        display: none;
+        justify-content: center;
+        width: 120%;
+        margin-left: -5em;
+        text-align: center;
+        background-color: #202020;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid grey;
+    }
+    #hamList ul {
+        flex-direction: column;
+        animation: none;
+        margin-top: 7em;
+    }
 }
 
 
